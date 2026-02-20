@@ -1,0 +1,445 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0 ;
+    padding: 0; 
+}
+header { 
+    background: #8517ff ;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: "Lobster", sans-serif;
+    color:aliceblue;
+margin-bottom: 1rem;
+}
+.header_name{
+    color:aliceblue;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    font-size: 30px; }
+.header_logo{
+    
+    float:left;
+    margin-top: 10px;
+}
+.headertable{
+    margin-top: 1rem ;
+    background-color:#8517ff;
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+}
+.headertable a{
+    font-size: 29px;
+    padding: 7px;
+    color:chartreuse;
+    text-decoration: none;
+    background: #1682e6;
+    border-radius: 15px;
+}   
+.headertable ul {
+    
+    list-style:none;
+    display:flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.headertable ul li
+{
+    color:aliceblue;
+    }
+.Linkssize{
+    background: linear-gradient(#8517ff,#16e6ca);
+    order:2;
+    margin-bottom: 50px;
+}
+.Linkssize li{
+    padding: 10px;
+    font-size: 25px;
+    color:aquamarine;
+    
+
+}
+.Linkssize a{
+    color:aquamarine;
+     text-decoration: none;
+
+}
+.Linkssize a:hover{
+    color:rgb(146, 127, 255);
+    
+
+}
+.Linkssize img{
+    padding: 10px;
+    font-size: 25px;
+
+}
+main{
+    display: flex ;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+body{
+background: linear-gradient(#1682e6,#1102e4);
+font-family: "Montserrat", sans-serif;
+}
+
+
+.no-bullet {
+    list-style-type: none; 
+}
+.Form2{
+    background: linear-gradient(#8517ff,#16e6ca);
+    color:rgb(255, 255, 255);
+font-size: 25px; margin-bottom: 20px;
+order:3;
+}
+
+input[type="submit"]{
+width: 200px;
+height: 60px;
+font-size: 20px;
+border-radius: 16px;
+}
+.tablicaa{
+color: aliceblue; order:1;
+border-spacing: 5px ;
+background: linear-gradient(#8517ff,#d40be7);
+margin-bottom: 50px;
+}
+table{
+
+    width:100%;
+    color: aliceblue; order:1;    
+    border-spacing: 2px ;
+    font-size: 10px;
+    margin: auto;
+}
+th, td{
+padding: 2px;}
+tr:nth-child(odd){
+    background-color: rgb(60, 210, 30);
+}
+tr:nth-child(even){
+    background-color: rgb(42, 165, 159);
+}
+
+
+footer{
+    width: 100%;
+    background-color: rgb(42, 165, 159);
+    margin-top: 100px;
+padding-top: 30px;
+padding-bottom: 120px ;}
+.ui{  font-size: 30px;
+    padding:40px;
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+    
+  
+}
+@media (min-device-width: 768px){
+.tablicaa{
+color: aliceblue; order:2;
+}
+.headertable {
+    margin-top: 1rem ;
+    background-color:#8517ff;
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+.headertable ul {
+    margin-top: 1rem ;
+    background-color:#8517ff;
+
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+}
+.Linkssize{
+    order:1;
+}
+.tablicaa{
+ order:2;
+}
+table{
+width:100%;
+color: aliceblue; order:1;
+background: linear-gradient(#8517ff,#d40be7);
+padding: 1rem;    
+border-spacing: 5px ;
+font-size: 25px;
+
+}
+.Form2{
+    background: linear-gradient(#8517ff,#16e6ca);
+    color:rgb(255, 255, 255);
+font-size: 25px; margin-bottom: 20px;
+order:3;
+}
+main{
+    width: 960px;
+    margin: 0 auto;
+margin-top: 100px;
+display: flex ;
+flex-direction: column;
+text-align: center;
+list-style-position: inside;
+gap:2rem;
+}
+}
+
+ */
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0 ;
+    padding: 0; 
+}
+.color-column{
+    background-color: #1682e6;
+}
+/* .header_name{
+    color:aliceblue;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    font-size: 30px; 
+} */
+
+
+.logo{
+    background-color: #8517ff;
+    margin-bottom: 1rem;
+
+}
+
+.header_logo{
+    float:left;
+    margin-right: 10px;
+    
+
+}
+
+.nav-panel{
+    /* display:flex; */
+    /* flex-direction:column; */
+    text-align: center;
+    margin-top:1rem;
+    background-color: #8517ff;
+
+}
+
+.nav-panel ul{
+    
+    list-style: none;
+    gap:1.5rem;
+}
+
+.nav-panel a{
+    color:#FFF;
+    text-decoration: none;
+    margin-left:1.5rem;
+}
+
+.nav-panel a:hover{
+    color:#d9ff00;
+}
+
+ 
+.Linkssize li{
+    padding: 10px;
+    font-size: 25px;
+    color:aquamarine;
+    
+
+}
+.Linkssize a{
+    color:aquamarine;
+     text-decoration: none;
+
+}
+.Linkssize{
+    background: linear-gradient(#8517ff,#16e6ca);
+    
+    
+}
+.Linkssize a:hover{
+    color:rgb(146, 127, 255);
+    
+
+}
+.Linkssize img{
+    padding: 10px;
+    font-size: 25px;
+
+}
+main{
+    
+    /* width: 60rem; */
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+body{
+background: linear-gradient(#1682e6,#1102e4);
+font-family: "Montserrat", sans-serif;
+}
+
+
+.no-bullet {
+    list-style-type: none; /* Убираем маркировку */
+}
+.Form2{
+    background: linear-gradient(#8517ff,#16e6ca);
+    color:rgb(255, 255, 255);
+font-size: 25px; margin-bottom: 20px;
+
+}
+/* label{
+  
+  display:block; 
+} */
+input[type="submit"]{
+width: 200px;
+height: 60px;
+font-size: 20px;
+border-radius: 16px;
+}
+/*.tablicaa{
+    
+    
+color: aliceblue; 
+
+background: linear-gradient(#8517ff,#d40be7);
+margin-bottom: 50px;
+}
+table{
+    
+
+    
+    color: aliceblue; 
+    border-spacing: 5px ;
+    font-size: 10px;
+    margin: auto;
+}
+th, td{
+padding: 2px;}
+tr:nth-child(odd){
+    background-color: rgb(60, 210, 30);
+}
+tr:nth-child(even){
+    background-color: rgb(42, 165, 159);
+}*/
+.tablicaa {
+    color: aliceblue; 
+    background: linear-gradient(#8517ff,#d40be7);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 1rem;
+}
+
+table {
+    width: 100%;
+    color: aliceblue;    
+    border-spacing: 10px !important; /* Увеличиваем расстояние между ячейками */
+    border-collapse: separate !important; /* Явно указываем separate */
+    font-size: 10px;
+    margin: auto;
+}
+
+th, td {
+    padding: 10px !important; /* Увеличиваем внутренние отступы */
+    border: none !important; /* Убираем возможные границы от Bootstrap */
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(60, 210, 30);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(42, 165, 159);
+}
+
+
+
+footer{
+    width: 100%;
+    background-color: rgb(42, 165, 159);
+    margin-top: 100px;
+padding-top: 30px;
+padding-bottom: 120px ;}
+.ui{  font-size: 30px;
+    padding:40px;
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+    
+  
+}
+@media (min-device-width: 768px){
+
+
+.color-column{
+    background-color: #8517ff;}
+
+
+/* Для десктопной версии */
+@media (min-device-width: 768px) {
+    table {
+        border-spacing: 15px !important; /* Еще больше пространства на больших экранах */
+        font-size: 25px;
+    }
+    
+    th, td {
+        padding: 15px !important;
+    }
+}    
+
+.headertable {
+    margin-left: auto ;
+    background-color:#8517ff;
+
+
+    flex-direction: row;
+    padding: 1rem;
+
+}
+.headertable ul {
+    margin-top: 1rem ;
+    background-color:#8517ff;
+
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    
+}
+
+
+
+.Form2{
+    background: linear-gradient(#8517ff,#16e6ca);
+    color:rgb(255, 255, 255);
+font-size: 25px; margin-bottom: 20px;
+
+}
+main{
+    width: 960px;
+    margin: 0 auto;
+
+list-style-position: inside;
+gap:2rem;
+}
+}
